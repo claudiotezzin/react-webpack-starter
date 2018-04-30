@@ -3,7 +3,7 @@ import { shallow, mount } from "enzyme";
 import App from "../containers/App";
 
 describe("<App />", () => {
-  it("shallow renders without crashing", () => {
+  it("renders without crashing", () => {
     expect(shallow(<App />));
   });
 });
