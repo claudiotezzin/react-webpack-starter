@@ -7,7 +7,7 @@
     "start":
       "NODE_PATH=./src webpack-dev-server --mode development --open --hot",
     "build": "NODE_PATH=src webpack --mode production",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "author": "Claudio Tezzin",
   "license": "MIT",
